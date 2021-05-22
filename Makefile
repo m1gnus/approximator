@@ -6,7 +6,7 @@ LDFLAGS=
 OBJS=main.o util.o
 BIN=linear_approx
 
-all: linear_approx
+all: $(BIN)
 
 $(BIN): main.o util.o
 	@echo ===== LINKING $@
